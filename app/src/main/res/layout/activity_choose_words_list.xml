@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseWordsList">
+
+    <Button
+        android:id="@+id/goWordsActivity"
+        android:layout_width="199dp"
+        android:layout_height="54dp"
+        android:text="Genel Listem"
+        app:layout_constraintBottom_toTopOf="@+id/goIKnowActivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.748" />
+
+    <Button
+        android:id="@+id/goIKnowActivity"
+        android:layout_width="199dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="56dp"
+        android:text="Bildiklerim Listesi"
+        app:layout_constraintBottom_toTopOf="@+id/goIDoNotKnowActivity"
+        app:layout_constraintEnd_toEndOf="@+id/goWordsActivity"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/goWordsActivity"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/goIDoNotKnowActivity"
+        android:layout_width="201dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="172dp"
+        android:text="Bilmediklerim Listesi"
+        app:layout_constraintBottom_toTopOf="@+id/goBackMain"
+        app:layout_constraintEnd_toEndOf="@+id/goIKnowActivity"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/goIKnowActivity" />
+
+    <Button
+        android:id="@+id/goBackMain"
+        android:layout_width="211dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="120dp"
+        android:text="BACK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/goIDoNotKnowActivity"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/goIDoNotKnowActivity" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
