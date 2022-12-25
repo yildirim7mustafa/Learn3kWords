@@ -67,6 +67,7 @@ public class IDoNotKnowListActivity extends AppCompatActivity implements View.On
                 deleteKnownWord();
                 myDoNotKnownList.remove(value);
                 getRandomElement(myDoNotKnownList);
+                startActivity(new Intent(this,IDoNotKnowListActivity.class));
                 break;
 
             case R.id.iDoNotKnowListBackButton:

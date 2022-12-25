@@ -74,6 +74,7 @@ public class IKnowListActivity extends AppCompatActivity implements View.OnClick
                 deleteKnownWord();
                 myKnownList.remove(value);
                 getRandomElement(myKnownList);
+                startActivity(new Intent(this,IKnowListActivity.class));
                 break;
 
             case R.id.iKnowListBackButton:
