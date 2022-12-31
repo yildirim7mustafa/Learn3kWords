@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profilebcg"
+    tools:context=".ChooseWordsList">
+
+    <Button
+        android:id="@+id/goWordsActivity"
+        android:layout_width="290dp"
+        android:layout_height="70dp"
+        android:text="Genel Listem"
+        android:textStyle="bold|italic"
+        android:background="@drawable/bt_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.275" />
+
+    <Button
+        android:id="@+id/goIKnowActivity"
+        android:layout_width="290dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="69dp"
+        android:text="Bildiklerim Listesi"
+        android:background="@drawable/bt_bg"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goWordsActivity"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/goIDoNotKnowActivity"
+        android:layout_width="290dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="61dp"
+        android:text="Bilmediklerim Listesi"
+        android:background="@drawable/bt_bg"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goIKnowActivity"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/goBackMain"
+        android:layout_width="211dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="116dp"
+        android:background="@drawable/bt_bg"
+        android:text="BACK"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goIDoNotKnowActivity" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

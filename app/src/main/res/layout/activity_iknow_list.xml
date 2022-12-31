@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profilebcg"
+    tools:context=".IKnowListActivity">
+
+    <Button
+        android:id="@+id/iKnowListBackButton"
+        android:layout_width="126dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="144dp"
+        android:background="@drawable/bt_bg"
+        android:text="BACK"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iKnowListForgotButton"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/iKnowListTextView"
+        android:layout_width="298dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginEnd="58dp"
+        android:background="@drawable/bt_bg1"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18" />
+
+    <Button
+        android:id="@+id/iKnowListForgotButton"
+        android:layout_width="227dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="101dp"
+        android:background="@drawable/bt_bg"
+        android:text="Unuttum"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iKnowListPassButton"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <Button
+        android:id="@+id/iKnowListPassButton"
+        android:layout_width="321dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="45dp"
+        android:background="@drawable/bt_bg"
+        android:text="PASS"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iKnowListTextView"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

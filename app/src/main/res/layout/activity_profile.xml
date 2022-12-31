@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profilebcg"
+    android:textAlignment="center"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/profile_banner"
+        android:layout_width="288dp"
+        android:layout_height="61dp"
+        android:background="@drawable/bt_bg1"
+        android:text="MENU"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <Button
+        android:id="@+id/stats_button"
+        android:layout_width="288dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="57dp"
+        android:background="@drawable/bt_bg"
+
+        android:text="Stats"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/challange_button"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/challange_button"
+        android:layout_width="288dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="57dp"
+        android:background="@drawable/bt_bg"
+        android:text="Challanges"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/words_button"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/words_button"
+        android:layout_width="288dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="61dp"
+        android:background="@drawable/bt_bg"
+        android:shadowRadius="50"
+        android:text="GO TO WORDS"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_banner"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="288dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="57dp"
+        android:background="@drawable/bt_bg"
+        android:text="LOG OUT"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stats_button"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="334dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037"
+        app:srcCompat="@drawable/head" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
